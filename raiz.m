@@ -19,4 +19,5 @@ while xs<=10
         xr(k)=fzero(g,x0);        
     end
 end
-xr
+//xr descomentar
+
