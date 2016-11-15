@@ -1,6 +1,6 @@
 function [x,minf,nit]=hookejeeves(n,h,f,x0,toll)
 % 
-%
+% x y H son vectores y H puede empezar como un décimo del valo original
 % [x,minf,nit]=hookejeeves(n,h,f,x0,toll)
 % n: Número de variables
 % h: Step size
