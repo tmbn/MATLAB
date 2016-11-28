@@ -1,7 +1,7 @@
 % y'=5exp(5t)(y-t)^2+1; 0<t<1 ; y@=-1
 % Resultado real
 syms t y 
-y=dsolve('Dy=5*exp(5*t)*(y-t)^2+1','y(0)=-1')
+y=dsolve('D^2y/Dt^2+exp(-2t)*Dy/Dt+2*y=sin(3*t)','y(0)=3','Dy(0)=-1')
 ezplot(y,[0 10]), hold on
 
 % Resultado con odes
